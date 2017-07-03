@@ -1,0 +1,2 @@
+Switch wohnung_lichterkette "Lichterkette" {mqtt=">[mosquitto:wohnung/lichterkette/command:command:ON:1],>[mosquitto:wohnung/lichterkette/command:command:OFF:0]"}
+String wohnung_lichterkette_status    "Lichterketten Status [%s]" 	{mqtt="<[mosquitto:wohnung/lichterkette/status:state:default]"}
